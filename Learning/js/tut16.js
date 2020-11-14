@@ -31,4 +31,7 @@ myul.replaceChild(element,document.getElementById('lui'));
 myul.removeChild(document.getElementById('a'));
 
 let pr = elem2.getAttribute('class');
+//you can use hasAttribute
+elem2.removeAttribute('id');
+elem2.setAttribute('title','myelem2title');
 console.log(elem2, pr);
